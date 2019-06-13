@@ -21,7 +21,7 @@ document.addEventListener('keydown', function(e) {
 
     // if the last key is reached, activate cheats
     if (konamiCodePosition == konamiCode.length) {
-      activateCheats();
+      alert('Congratulations!');
       konamiCodePosition = 0;
     }
   } else {
