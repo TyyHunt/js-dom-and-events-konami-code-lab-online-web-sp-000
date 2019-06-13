@@ -21,7 +21,7 @@ document.addEventListener('keydown', function(e) {
 
     // if the last key is reached, activate cheats
     if (codePosition == code.length) {
-      alert('Congratulations!');
+      alert("Congratulations!");
       codePosition = 0;
     }
   } else {
